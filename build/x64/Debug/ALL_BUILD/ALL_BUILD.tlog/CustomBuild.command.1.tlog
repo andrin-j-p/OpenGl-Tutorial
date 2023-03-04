@@ -1,0 +1,10 @@
+^C:\USERS\ANDRI\ONEDRIVE\UNI\SEMESTER 12\COMPUTER GRAPHICS\CODE LECTURE\TUTORIAL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/andri/OneDrive/UNI/Semester 12/Computer Graphics/Code Lecture/Tutorial" "-BC:/Users/andri/OneDrive/UNI/Semester 12/Computer Graphics/Code Lecture/Tutorial/build" --check-stamp-file "C:/Users/andri/OneDrive/UNI/Semester 12/Computer Graphics/Code Lecture/Tutorial/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

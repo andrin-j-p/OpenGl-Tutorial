@@ -1,0 +1,10 @@
+^C:\USERS\ANDRI\ONEDRIVE\UNI\SEMESTER 12\COMPUTER GRAPHICS\CODE LECTURE\TUTORIAL\BUILD\CMAKEFILES\FABD75A1B5DF22648B3D22B811A67743\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/andri/OneDrive/UNI/Semester 12/Computer Graphics/Code Lecture/Tutorial" "-BC:/Users/andri/OneDrive/UNI/Semester 12/Computer Graphics/Code Lecture/Tutorial/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/andri/OneDrive/UNI/Semester 12/Computer Graphics/Code Lecture/Tutorial/build/tutorial.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

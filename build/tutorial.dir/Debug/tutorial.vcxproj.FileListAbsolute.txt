@@ -1,0 +1,3 @@
+C:\Users\andri\OneDrive\UNI\Semester 12\Computer Graphics\Code Lecture\Tutorial\build\Debug\glew32.dll
+C:\Users\andri\OneDrive\UNI\Semester 12\Computer Graphics\Code Lecture\Tutorial\build\Debug\glfw3.dll
+C:\Users\andri\OneDrive\UNI\Semester 12\Computer Graphics\Code Lecture\Tutorial\build\tutorial.dir\Debug\tutorial.vcxproj.CopyComplete
